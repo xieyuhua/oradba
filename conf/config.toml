@@ -1,0 +1,11 @@
+[oracle]
+# 源端 oracle 连接串
+# 用户权限需要查询所有数据字典权限或者 DBA 权限
+username = "test"
+password = "test"
+# 配置 oracle 连接字符串，样例：主机地址:数据库端口/实例名
+connect-string = "192.168.9.26:1521/orcl"
+# 配置 oracle 连接会话 session 变量,
+session-params = ["alter session set nls_date_format = 'yyyy-mm-dd hh24:mi:ss'"]
+# 配置 oracle 连接时区
+timezone = "Local"
